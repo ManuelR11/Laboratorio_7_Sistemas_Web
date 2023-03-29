@@ -1,6 +1,5 @@
 
-window.funcion_Text = {
-    createParagraph: function(text) {
+export const createParagraph = (text) => {
         // Crear el elemento p
         const p = document.createElement("p");
     
@@ -10,4 +9,3 @@ window.funcion_Text = {
         // Devolver el elemento p
         return p;
     }
-}
