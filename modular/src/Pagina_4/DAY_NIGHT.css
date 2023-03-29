@@ -1,0 +1,24 @@
+body{
+    background-color: #E6CCB2;
+}
+
+h1{
+    font-size: 38px;
+    border: 2px solid #7F5539;
+    box-shadow: 10px 5px 5px #9C6644;
+    color: black;
+}
+
+p{
+    font-size: 22px;
+    color: #7F5539;
+}
+
+details{
+    font-size: 28px;
+    color: #9C6644;
+}
+
+A{
+    color: white;
+}

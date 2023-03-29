@@ -1,0 +1,36 @@
+body{
+    background-color: #B08968;
+    text-align: center;
+}
+
+#header{
+    background-color: #7F5539;
+    text-align: center;
+    font-size: large;
+    
+}
+
+
+.links{
+    color: #EDE0D4;
+    font-size: 28px;
+}
+
+.links:active{
+    color: black;
+    font-size: 28px;
+}
+
+
+#link1,#link2 {
+    display: inline-block;
+}
+
+
+
+h1{
+    color: #DDB892;
+    font-size: 38px;
+}
+
+

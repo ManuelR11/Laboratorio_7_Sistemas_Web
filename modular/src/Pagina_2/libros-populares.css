@@ -1,0 +1,19 @@
+body{
+    background-color: #7F5539;
+}
+
+header{
+    font-size: 20px;
+    border: 2px solid #E6CCB2;
+    box-shadow: 10px 5px 5px #B08968;
+    color: #E6CCB2;
+}
+
+b{
+    font-size: 28px;
+}
+
+A{
+    color: white;
+    
+}
