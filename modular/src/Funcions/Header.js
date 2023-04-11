@@ -1,3 +1,4 @@
+/*
 export const generateHeader = (title) => {
     var header = document.createElement("header");
     var h1 = document.createElement("h1");
@@ -6,9 +7,9 @@ export const generateHeader = (title) => {
     header.appendChild(h1);
     return header;
 }
+*/
 
 
-/*
 export const generateHeader = (title) => {
   var header = document.createElement("header");
   var h1 = document.createElement("h1");
@@ -22,7 +23,7 @@ export const generateHeader = (title) => {
 
   return header;
 };
-*/
+
 
 
 

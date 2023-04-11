@@ -1,3 +1,5 @@
+
+/*
 import { generateHeader } from "../Funcions/Header.js";
 import { agregarEnlace } from "../Funcions/Link.js";
 import { agregarImagen } from "../Funcions/Imagen.js";
@@ -13,7 +15,7 @@ agregarImagen([imagen1], "Tienda", "Imagen");
 
 
 
-/*
+*/
 import { generateHeader } from "../Funcions/Header.js";
 import { agregarEnlace } from "../Funcions/Link.js";
 import { agregarImagen } from "../Funcions/Imagen.js";
@@ -29,4 +31,3 @@ try {
   console.error(error);
   throw new Error("Error in page loading");
 }
-*/

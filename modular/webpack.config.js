@@ -10,7 +10,7 @@ module.exports = {
         Pagina4: './src/Pagina_4/DAY_NIGHT.js'
     },
     output: {
-      path: path.resolve(__dirname, 'dist_webpack'),
+      path: path.resolve(__dirname, 'dist_webpack_babel'),
       filename: '[name].js'
       
     },
@@ -40,7 +40,7 @@ module.exports = {
                 test: /\.m?js$/,
                 exclude: /node_modules/,
                 use: {
-                  loader: 'babel-loader',
+                  loader: 'babel-loader'
                 }
             }
         ]
