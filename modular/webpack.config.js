@@ -23,8 +23,7 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: '/src/Imagenes/',
-                            publicPath: '../src/Imagenes/'
+                            outputPath: 'Imagenes/'
                         }
                     }
                 ]
@@ -36,6 +35,13 @@ module.exports = {
                     'css-loader',
                     'sass-loader'
                 ]
+            },
+            {
+                test: /\.m?js$/,
+                exclude: /node_modules/,
+                use: {
+                  loader: 'babel-loader',
+                }
             }
         ]
     },

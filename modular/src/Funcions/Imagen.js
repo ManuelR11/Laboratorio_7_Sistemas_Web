@@ -1,4 +1,3 @@
-
 export const agregarImagen = (src, alt, id) =>{
   var imagen = document.createElement("img");
   imagen.src = src; 
@@ -8,7 +7,6 @@ export const agregarImagen = (src, alt, id) =>{
 
   return imagen;
 }
-
 
 
 
